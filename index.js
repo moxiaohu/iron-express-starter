@@ -8,6 +8,5 @@ const app = express();
 
 const { log } = console;
 
-
 iron(app);
 app.listen(port, () => log(`Server listening on http://127.0.0.1:${port}`));
