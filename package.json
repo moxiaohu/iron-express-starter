@@ -2,8 +2,10 @@
   "name": "{{name}}",
   "version": "0.0.1",
   "dependencies": {
+    "dotenv": "^6.1.0",
     "express": "^4.17.1",
-    "iron-express": "1.0.0",
+    "iron-express-dev": "0.0.1",
+    "iron-express-orm": "0.0.3",
     "pg": "^7.11.0"
   },
   "devDependencies": {
