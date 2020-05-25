@@ -1,4 +1,5 @@
-const dbUrl = process.env.DATABASE_URL; // Heroku related
+require('dotenv').config({ path: `${__dirname}/.env` });
+const dbUrl = process.env.DATABASE_URL;
 let connection = dbUrl;
 if (!dbUrl) {
   const {
@@ -12,6 +13,7 @@ const dbConfig = {
   connection: dbUrl ? `${connection}?ssl=true` : connection, // ssl required by heroku
   migrations: {
     tableName: 'knex_migrations',
+    directory: __dirname + '/tmp',
   },
 };
 
