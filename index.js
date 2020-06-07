@@ -6,7 +6,7 @@ const port = process.env.PORT || process.env.API_PORT || 3000;
 // init db
 // const {db} = require('iron-express-orm');
 
-const { iron } = require('iron-express-dev');
+const { iron } = require('iron-express');
 
 const app = express();
 
