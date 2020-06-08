@@ -3,6 +3,8 @@
       "prefix": "/module1",
       "": [
         {
+          "middlewares": ["module1.DemoMiddleware"],
+          "validators": ["DemoValidator"]
         }
       ]
     }
