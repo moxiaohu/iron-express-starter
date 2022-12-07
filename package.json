@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "dotenv": "^6.1.0",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "iron-express": "0.0.1",
     "iron-express-orm": "0.0.5"
   },
